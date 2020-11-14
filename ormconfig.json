@@ -1,0 +1,16 @@
+{
+  "type": "mysql",
+  "host": "127.0.0.1",
+  "port": 3306,
+  "username": "hugo",
+  "password": "hugo",
+  "database": "hugo",
+  "synchronize": true,
+  "logging": false,
+  "entities": [
+    "tests/entity/**/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "src/entity"
+  }
+}
